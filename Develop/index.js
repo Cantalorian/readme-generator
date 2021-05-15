@@ -44,6 +44,32 @@ const questions = [
       message: 'If applicable, please provide any tests written for this project.'
   },
   {
+    type: "input",
+    name: "github",
+    message: "Enter your GitHub Username. (Required)",
+    validate: gitHubInput => {
+      if (gitHubInput) {
+        return true;
+      } else {
+        console.log("Please enter your GitHub Username!");
+        return false;
+      }
+    }
+  },
+  {
+    type: "input",
+    name: "link",
+    message: "Enter the GitHub link to your project. (Required)",
+    validate: gitHubLink => {
+      if (gitHubLink) {
+        return true;
+      } else {
+        console.log("Please enter a link to your project!");
+        return false;
+      }
+    }
+  },
+  {
       type: 'input',
       name: 'questions',
       message: 'For any questions regarding this project I can be reached at (Give Email/GitHub).',
@@ -60,10 +86,20 @@ const questions = [
 
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+  console.log(fileName, data)
+  fs.writeFileSync(fileName, data);
+}
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+  inquirer.prompt(questions).then(function (value) {
+
+    let questions = generateMarkdown(value)
+
+    writeToFile("readme.md", questions);
+  })
+}
 
 // Function call to initialize app
 init();
