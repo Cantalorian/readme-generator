@@ -17,7 +17,7 @@
   Node.js
 
   ## Usage
-  <iframe src="https://drive.google.com/file/d/1a7QYVB605PHcWzQh3pOBru611Lnc2jza/preview" width="640" height="480"></iframe>
+  <iframe src="https://drive.google.com/file/d/1a7QYVB605PHcWzQh3pOBru611Lnc2jza/view" width="640" height="480"></iframe>
 
   ## License
   [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
