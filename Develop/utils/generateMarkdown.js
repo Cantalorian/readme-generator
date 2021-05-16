@@ -62,7 +62,7 @@ function generateMarkdown(data) {
   ${data.link}
 
   ## Questions
-  'For any questions regarding this project I can be reached at ${data.github} on github. Or email me at ${data.email}'
+  'For any questions regarding this project, I can be reached at <a href="https://github.com/${data.github}">${data.github}</a> on github. Or email me at ${data.email}'
   `;
 }
 
