@@ -71,13 +71,13 @@ const questions = [
   },
   {
       type: 'input',
-      name: 'questions',
-      message: 'For any questions regarding this project I can be reached at (Give Email/GitHub).',
-      validate: nameInput => {
-          if (nameInput) {
+      name: 'email',
+      message: 'Please enter your contact email.',
+      validate: emailInput => {
+          if (emailInput) {
               return true;
           } else {
-              console.log('Please enter your GitHub Usernam/Email address');
+              console.log('Please enter your Email address.');
               return false;
           }
       }
