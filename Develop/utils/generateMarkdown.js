@@ -58,6 +58,9 @@ function generateMarkdown(data) {
   ## Tests
   ${data.tests}
 
+  ## Link to project
+  ${data.link}
+
   ## Questions
   'For any questions regarding this project I can be reached at ${data.github} on github. Or email me at ${data.email}'
   `;
