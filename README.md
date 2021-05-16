@@ -2,7 +2,7 @@
   # README generator
 
   ## Description
-  Generate a readme based on user input
+  Generates a readme based on user input
 
   ## Table of Contents
   * [Description](#Description)
@@ -14,20 +14,23 @@
   * [Questions](#Questions)
   
   ## Installation
-  Node
+  Node.js
 
   ## Usage
   Nothing
 
   ## License
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
 
   ## Contributing
   James Canter
 
   ## Tests
-  N/A
+  None
+
+  ## Link to project
+  https://github.com/cantalorian/readme-generator
 
   ## Questions
-  'For any questions regarding this project I can be reached at Cantalorian on github. Or email me at Chewie1985@gmail.com'
+  'For any questions regarding this project I can be reached at Cantalorian on github. Or email me at chewie1985@gmail.com'
   
